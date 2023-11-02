@@ -1,0 +1,59 @@
+Task 11
+Q.1 Four access modifiers
+
+1. Public 
+* It’s a global level access modifier.
+* When we use public as access modifier in class , methods and data member we can access in same package as well as in different package by using object and extends.
+
+2.Protected
+* When we use protected as access modifier, we can access in same package by using object and we can access in different package by using extends.
+
+3.Default
+* It’s a package level access modifier.
+
+4.Private
+* It’s a class level access modifier. We can use it only in a class.
+
+Q.2 Difference between Exception and error
+
+Exception:
+      •	It’s like an error. Whenever it occurs the program will terminate itself.
+      •	Exception provide the opportunity to make your program run in normal flow.
+      •	We can handle the exception by using try and catch.
+Error:
+      •	Error indicates the trouble.
+      •	It’s not possible to recover from an error.
+      •	In java , all the errors are unchecked.
+
+Q.3 Difference between checked and unchecked exception
+Checked Exception
+      •	Checked exceptions happen at compile time.
+      •	Compiler checks the checked exception.
+      •	Checked exceptions can be handled at the time of compilation.
+      •	These are the sub class of exception class.
+      •	Here , JVM needs the exception to catch and handle.
+Examples:
+      File Not Found Exception
+      IO  Not Found Exception
+      SQL Not Found Exception
+      Class Not Found Exception
+
+Unchecked Exception
+      •	Unchecked Exception happens at run time.
+      •	Compiler does not check these types of exceptions.
+      •	Unchecked exceptions cannot be handled at the time of compilation.
+      •	These are run time exceptions and hence are not a part of the exception class
+      •	Here , JVM does not require the exception to catch and handle.
+Examples
+    Arithmetic Exception
+    Index Out of Bound Exception
+    Array Index Out of Bound Exception
+    String Index Out of Bound Exception
+
+
+
+
+
+
+
+
